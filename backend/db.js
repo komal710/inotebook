@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-const mongoURI ="mongodb://localhost:27017/?directConnection=true&readPreference=primary&tls=false&authMechanism=DEFAULT"
+const mongoURI ="mongodb://localhost:27017/inotebook?directConnection=true&readPreference=primary&tls=false&authMechanism=DEFAULT"
 
 const connectToMongo = async () => {
     try {
