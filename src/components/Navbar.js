@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import React from 'react'
 import {
     Link,
     useLocation
@@ -7,9 +7,9 @@ import {
   
 export default function Navbar() {
   let location = useLocation();
-  useEffect(() => {
-    console.log(location.pathname);
-  }, [location]);
+  // useEffect(() => {
+  //   console.log(location.pathname);
+  // }, [location]);
   return (
     <nav className="navbar navbar-expand-lg bg-body-tertiary">
   <div className="container-fluid">

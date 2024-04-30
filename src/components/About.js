@@ -1,7 +1,6 @@
 import React, {useContext, useEffect} from 'react'
-import noteContext from '../context/notes/NoteContext'
 
-export default function About() {
+const About = () => {
   // const a= useContext(noteContext)
   // useEffect(()=>{
   //   a.update();
@@ -14,4 +13,4 @@ export default function About() {
   )
 }
 
-
+export default About
